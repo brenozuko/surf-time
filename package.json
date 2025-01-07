@@ -1,0 +1,20 @@
+{
+  "name": "surf-time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Breno Zukowski",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^22.10.5",
+    "module-alias": "^2.2.3",
+    "typescript": "^5.7.2"
+  }
+}
